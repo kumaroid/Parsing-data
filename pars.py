@@ -35,7 +35,7 @@ def get_users(group_id, from_data):
     return active_users[:3]
 
 def parser(group_list):
-    from_data = input('Введите дату, с которой хотите отслеживать активность\nв формате: дд.мм.гггг: ')
+    from_data = input('Введите дату, с которой хотите отслеживать активность\nформат: дд.мм.гггг: ')
     print(f'Анализируем с {from_data}\n')
     for group in group_list:
         print(f'Группа: {group}')
