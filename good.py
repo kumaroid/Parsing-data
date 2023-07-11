@@ -1,6 +1,4 @@
 import requests
-#from config import access_token
-#from config import user_id
 from bs4 import BeautifulSoup
 import datetime
 import time
